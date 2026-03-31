@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions and modern templates.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "AI content suggestions"],
+    "icon": "file-text",
+    "image" :"https://i.ibb.co.com/XfC01r24/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning personal portfolio with customizable layouts.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop builder", "SEO optimized", "Responsive design", "Custom domain support"],
+    "icon": "layout",
+    "image" :"https://i.ibb.co.com/Cs9KRsSw/operation.png"
+   
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker Plus",
+    "description": "Track job applications, interviews, and follow-ups in one place.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Application tracking", "Reminder alerts", "Interview notes", "Analytics dashboard"],
+    "icon": "check-square",
+    "image": "https://i.ibb.co.com/HpBSY43d/design-tool.png"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Optimizer",
+    "description": "Boost your LinkedIn profile visibility with AI-driven insights.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Profile scoring", "Keyword optimization", "Headline generator", "Content tips"],
+    "icon": "linkedin",
+    "image" :"https://i.ibb.co.com/Sw0PwJsz/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters instantly using AI.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["AI writing assistant", "Multiple formats", "Export options", "Custom tone selection"],
+    "icon": "edit",
+    "image" :"https://i.ibb.co.com/Z6DzXBPC/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep Toolkit",
+    "description": "Practice interviews with real-world questions and feedback.",
+    "price": 39.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "AI feedback", "Common Q&A", "Performance tracking"],
+    "icon": "mic",
+    "image":"https://i.ibb.co.com/jnSsVGL/writing-2327400-1.png"
+  }
+]
