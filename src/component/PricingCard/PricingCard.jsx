@@ -7,8 +7,8 @@ const PricingCard = () => {
                 <h1 className='text-2xl sm:text-4xl md:text-5xl text-center'>Simple, Transparent Pricing</h1>
                 <p className='text-center text-gray-400 my-2'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className="card w-full mt-10 bg-base-100 shadow-sm grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-                <div className="card-body shadow">
+            <div className="card w-full mt-10  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+                <div className="card-body shadow rounded-2xl">
                     <div className="justify-between">
                         <h2 className="text-3xl font-bold">Starter</h2>
                         <p>Perfect for getting started</p>

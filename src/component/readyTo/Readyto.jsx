@@ -2,7 +2,7 @@ import React from 'react';
 
 const Readyto = () => {
     return (
-        <div className='bg-linear-to-bl from-[#4F39F6] to-[#9514FA]'>
+        <div className='bg-linear-to-bl from-[#4F39F6] to-[#9514FA] mt-10'>
             <div className="hero container mx-auto text-white">
                 <div className="hero-content text-center">
                     <div className="py-12">
