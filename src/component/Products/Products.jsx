@@ -1,7 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 
-const Products = ({card,setProductAdd,setselectedType,productAdd}) => {
+const Products = ({card,setProductAdd,productAdd}) => {
   
     const handleClicked =(product)=>{
     const updateProducts = [...productAdd,product]
