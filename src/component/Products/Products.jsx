@@ -9,9 +9,9 @@ const Products = ({card,setProductAdd,setselectedType,productAdd}) => {
     toast("Product Selected")
   }
     return (
-        <div>
+        <div className='grid grid-cols-1'>
               <div className="card  bg-base-100 shadow-sm ">
-                <div className="card-body">
+                <div className="card-body ">
                     <span 
                     className={`badge badge-xls
                      ${card.tag==="best seller" ?

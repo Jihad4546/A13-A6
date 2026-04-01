@@ -8,6 +8,7 @@ import Navber from './component/Navber/Navber'
 import PremimunDigitalTools from './component/Premium-Digital-Tools/PremimunDigitalTools'
 import PricingCard from './component/PricingCard/PricingCard'
 import { ToastContainer } from 'react-toastify'
+import Footer from './component/footer/Footer'
 
 const cardData = async ()=>{
   const res = await fetch('../public/data.json')
@@ -18,7 +19,7 @@ function App() {
   const cardDataPromise = cardData()
   const [productAdd,setProductAdd] = useState([]);
   return (
-    <>
+    <div className='overflow-hidden'>
     <Navber productAdd={productAdd}></Navber>
     <Header></Header>
     <ActiveUsers></ActiveUsers>
@@ -31,8 +32,9 @@ function App() {
     </Suspense>
     <GetStaps></GetStaps>
     <PricingCard></PricingCard>
+    <Footer></Footer>
    <ToastContainer/>
-    </>
+    </div>
   )
 }
 

@@ -13,7 +13,7 @@ const Header = () => {
                         <p className='bg-[#E1E7FF] py-2 px-2 w-75 text-center rounded-2xl '>
                             <span className=' bg-linear-to-bl from-[#4F39F6] to-[#9514FA] w-3 h-3 rounded-full inline-block mr-3'></span>
                             <span className='bg-linear-to-bl from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent border-none text-[16px] font-semiboldZ'>New: AI-Powered Tools Available</span></p>
-                        <h1 className="text-5xl font-bold">Supercharge Your <br></br> Digital Workflow</h1>
+                        <h1 className="text-3xl sm:text-6xl font-bold">Supercharge Your <br></br> Digital Workflow</h1>
                         <p className="py-6">
                             Access premium AI tools, design assets, templates, and productivity<br></br>
                             software—all in one place. Start creating faster today.<br></br>
