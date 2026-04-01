@@ -7,6 +7,7 @@ import Header from './component/Header/Header'
 import Navber from './component/Navber/Navber'
 import PremimunDigitalTools from './component/Premium-Digital-Tools/PremimunDigitalTools'
 import PricingCard from './component/PricingCard/PricingCard'
+import { ToastContainer } from 'react-toastify'
 
 const cardData = async ()=>{
   const res = await fetch('../public/data.json')
@@ -30,7 +31,7 @@ function App() {
     </Suspense>
     <GetStaps></GetStaps>
     <PricingCard></PricingCard>
-  
+   <ToastContainer/>
     </>
   )
 }

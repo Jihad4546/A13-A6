@@ -12,15 +12,11 @@ const Navber = ({ productAdd }) => {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            <li><a className='text-[#101727] font-semibold text-[16px]' href="#">Products</a></li>
+                            <li><a className='text-[#101727] font-semibold text-[16px]' href="#">Features</a></li>
+                            <li><a className='text-[#101727] font-semibold text-[16px]' href="#">Pricing</a></li>
+                            <li><a className='text-[#101727] font-semibold text-[16px]' href="#">Testimonials</a></li>
+                            <li><a className='text-[#101727] font-semibold text-[16px]' href="#">FAQ</a></li>
                         </ul>
                     </div>
                     <a className="btn text-3xl font-bold bg-linear-to-bl from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent border-none">DigiTools</a>

@@ -1,9 +1,12 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Products = ({card,setProductAdd,setselectedType,productAdd}) => {
-  const handleClicked =(product)=>{
+  
+    const handleClicked =(product)=>{
     const updateProducts = [...productAdd,product]
     setProductAdd(updateProducts)
+    toast("Product Selected")
   }
     return (
         <div>

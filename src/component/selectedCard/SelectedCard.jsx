@@ -43,7 +43,7 @@ const SelectedCard = ({ productAdd,setProductAdd }) => {
                 <p>${totalPrice}</p>
             </div>
             <button
-                        
+                        onClick={() => setProductAdd([])}
                         className={"btn  bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white rounded-fulfont-bold text-[16px] w-full"}>Proceed to Checkout</button>
         </div>
         
