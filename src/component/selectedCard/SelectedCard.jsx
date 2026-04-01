@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import ImageCard from '../../assets/products/design-tool.png';
 const SelectedCard = ({ productAdd,setProductAdd }) => {
 
@@ -8,7 +9,9 @@ const SelectedCard = ({ productAdd,setProductAdd }) => {
     const handleRemoveDiv=(cards)=>{
         const removeCard = productAdd.filter((productAdd)=>productAdd.name!==cards.name,
         );
-       setProductAdd(removeCard)
+       setProductAdd(removeCard);
+        toast("Successfuly remove item")
+        
     }
     return (
         <div className='shadow container mx-auto p-5'>
@@ -43,7 +46,7 @@ const SelectedCard = ({ productAdd,setProductAdd }) => {
                 <p>${totalPrice}</p>
             </div>
             <button
-                        onClick={() => setProductAdd([])}
+                        onClick={() => setProductAdd([],toast("Successfuly Chack Out"))}
                         className={"btn  bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white rounded-fulfont-bold text-[16px] w-full"}>Proceed to Checkout</button>
         </div>
         

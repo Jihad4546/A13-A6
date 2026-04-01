@@ -12,12 +12,12 @@ import Footer from './component/footer/Footer'
 import Readyto from './component/readyTo/Readyto'
 
 const cardData = async ()=>{
-  const res = await fetch('../public/data.json')
+  const res = await fetch('/data.json')
   return res.json();
 }
+const cardDataPromise = cardData()
 
 function App() {
-  const cardDataPromise = cardData()
   const [productAdd,setProductAdd] = useState([]);
   return (
     <div className='overflow-hidden'>

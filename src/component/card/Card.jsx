@@ -3,7 +3,7 @@ import AvailableCard from '../AvailableCard/AvailableCard';
 import SelectedCard from '../selectedCard/SelectedCard';
 
 
-const Card = ({ cardDataPromise,setProductAdd,productAdd }) => {
+const Card = ({ cardDataPromise, setProductAdd, productAdd }) => {
     const cardDataUs = use(cardDataPromise)
     const [selectedType, setselectedType] = useState('avaliable');
     return (
@@ -18,26 +18,29 @@ const Card = ({ cardDataPromise,setProductAdd,productAdd }) => {
                         onClick={() => { setselectedType("avaliable") }}
                         className={`btn  ${selectedType === 'avaliable' ? "bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white" : "text-black"} rounded-full  font-bold text-[16px]`}>Products</button>
                     <button
-                        onClick={() => { setselectedType("selected")}}
+                        onClick={() => { setselectedType("selected") }}
                         className={`btn  ${selectedType === 'selected' ? "bg-linear-to-bl from-[#4F39F6] to-[#9514FA] text-white" : "text-black"} rounded-full  font-bold text-[16px]`}>
-                            card({`${productAdd.length ===0?"":(productAdd.length)}`})</button>
+                        Cart(
+                        <span className="text-red-5ump00">
+                            {productAdd.length === 0 ? "" : productAdd.length}
+                        </span>)</button>
 
                 </div>
             </div>
             {
-                selectedType==="avaliable"
-                 ? (<AvailableCard
-                 productAdd={productAdd}
-                     cardDataUs={cardDataUs} 
-                     setProductAdd={setProductAdd}
-                     setselectedType={setselectedType}
-                     ></AvailableCard>) 
-                 : (<SelectedCard 
-                    productAdd={productAdd}
-                    setProductAdd={setProductAdd}
-                 >
+                selectedType === "avaliable"
+                    ? (<AvailableCard
+                        productAdd={productAdd}
+                        cardDataUs={cardDataUs}
+                        setProductAdd={setProductAdd}
+                        setselectedType={setselectedType}
+                    ></AvailableCard>)
+                    : (<SelectedCard
+                        productAdd={productAdd}
+                        setProductAdd={setProductAdd}
+                    >
 
-                 </SelectedCard>)
+                    </SelectedCard>)
             }
         </div>
     );
