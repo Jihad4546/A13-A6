@@ -9,6 +9,7 @@ import PremimunDigitalTools from './component/Premium-Digital-Tools/PremimunDigi
 import PricingCard from './component/PricingCard/PricingCard'
 import { ToastContainer } from 'react-toastify'
 import Footer from './component/footer/Footer'
+import Readyto from './component/readyTo/Readyto'
 
 const cardData = async ()=>{
   const res = await fetch('../public/data.json')
@@ -32,6 +33,7 @@ function App() {
     </Suspense>
     <GetStaps></GetStaps>
     <PricingCard></PricingCard>
+    <Readyto></Readyto>
     <Footer></Footer>
    <ToastContainer/>
     </div>
